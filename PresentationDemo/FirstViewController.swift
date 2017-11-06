@@ -21,7 +21,25 @@ class FirstViewController: UIViewController {
     }
 
     @IBAction func showAlertButtonTapped(_ sender: UIButton) {
+        let alertController = UIAlertController(title: "Confirm?", message: "Would you like to confirm this action?", preferredStyle: .actionSheet)
+        
+        let cancelAction = UIAlertAction(title: "Never!!!!!", style: .cancel){(alert) in
+            print("User Tapped Cancel")
+        }
+        let yesAction = UIAlertAction(title: "Yes, please", style: .default, handler: {(alert) in
+            print("User tapped Yes")
+        })
+        
+        alertController.addAction(cancelAction)
+        alertController.addAction(yesAction)
+        
+        alertController.popoverPresentationController?.sourceRect = sender.frame
+        alertController.popoverPresentationController?.sourceView = view
+        
+        
+        present(alertController, animated: true, completion: nil)
     }
+    
     
 }
 
