@@ -59,7 +59,15 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OY7-4E-rbf">
                                 <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <mutableString key="text">1. “The only person you are destined to become is the person you decide to be.” ~Ralph Waldo Emerson
+
+2. “Start where you are. Use what you have. Do what you can.” ~Arthur Ashe
+
+3. “How wonderful it is that nobody need wait a single moment before starting to improve the world.” ~Anne Frank
+
+4. “When one door closes another door opens; but we so often look so long and so regretfully upon the closed door, that we do not see the ones which open for us.” ~Alexander Graham Bell
+
+5. “Life is a succession of lessons which must be lived to be understood.”~Helen Keller</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
